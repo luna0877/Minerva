@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h1>Minervamodellen</h1>
+    <p>Svar på de 8 spørgsmål og bliv placeret i minervamodellen.</p>
+    <!--Indsæt 8 spørgsmål og svarbokse her -->
+    <p>...?</p>
+    <p>4 - ...</p>
+    <p>3 - ...</p>
+    <p>2 - ...</p>
+    <p>1 - ...</p>
+    <input class="form-control-inline" type="number" id="q1" value="1" min="1" max="4">
+    
+    <!-- Visning  af resultat -->
+    <p id="d1" style="display: none">
+        Du er ...
+    </p>
+    <p id="d2" style="display: none">
+        Du er ...
+    </p>
+    <p id="d3" style="display: none">
+        Du er ...
+    </p>
+    <p id="d4" style="display: none">
+        Du er ...
+    </p>
+    <button class="btn btn-success" type="button" id="place" onclick="placePressed()">Placér mig</button>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
