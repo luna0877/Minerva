@@ -2,14 +2,14 @@ console.log("is called");
     
 
 var showDot = false;
-var q1 = Number(document.getElementById("q1").value); // Mod/Tra
-var q2 = 1; // Ide/Mat
-var q3 = 1; // Mod/Tra
-var q4 = 1; // Ide/Mat
-var q5 = 1; // Mod/Tra
-var q6 = 1; // Ide/Mat
-var q7 = 1; // Mod/Tra
-var q8 = 1; // Ide/Mat
+var q1 = Number(document.getElementById("q1").value); // Ide/Mat
+var q2 = Number(document.getElementById("q2").value); // Mod/Tra
+var q3 = Number(document.getElementById("q3").value); // Ide/Mat
+var q4 = Number(document.getElementById("q4").value); // Mod/Tra
+var q5 = Number(document.getElementById("q5").value); // Ide/Mat
+var q6 = Number(document.getElementById("q6").value); // Mod/Tra
+var q7 = Number(document.getElementById("q7").value); // Mod/Tra
+var q8 = Number(document.getElementById("q8").value); // Ide/Mat
 function setup(){ 
     // draw a koordinatessystem with colours
     // draw a point from getPosition
